@@ -11,19 +11,19 @@ For this experiment, [House Prices - Advanced Regression Techniques](https://www
 
 - **train.csv** - the training set
 - **test.csv** - the test set
-- **data_description.txt** - full description of each column, originally prepared by Dean De Cock but lightly edited to match the column names used here
-- **sample_submission.csv** - a benchmark submission from a linear regression on year and month of sale, lot square footage, and number of bedrooms
+- **data-description.txt** - full description of each column, originally prepared by Dean De Cock but lightly edited to match the column names used here
+- **sample-submission.csv** - a benchmark submission from a linear regression on year and month of sale, lot square footage, and number of bedrooms
 
 
 ## NOTEBOOK 
-- **mz_house-price-prediction-exploratory-data-analysis-train.ipynb**
+- **mz-house-price-prediction-exploratory-data-analysis-train.ipynb**
     - This notebook contains the exploratory data analysis for the **train.csv** file.
-- **mz_house-price-prediction-exploratory-data-analysis-test.ipynb**
+- **mz-house-price-prediction-exploratory-data-analysis-test.ipynb**
     - This notebook contains the exploratory data analysis for the **test.csv** file.
-- **mz_house-price-prediction-RE_capstone-stage1.ipynb**
+- **mz-house-price-prediction-rf_capstone-stage1.ipynb**
     - This notebook contains the prediction for house prices using `RandomForestRegressor`. 
     - The prediction underestimates the sale prices. 
-- **mz_house-price-prediction-xgb_capstone-stage1.ipynb**
+- **mz-house-price-prediction-xgb_capstone-stage1.ipynb**
     - Ordinal variable treatment is conducted for columns with NAN values.
     - `PCA` and `StandardScaler` are used for preprocessing and dimensionality reduction.
     - `LinearRegression` with `K-Fold` Cross-Validation is checked to understand the linear score.
