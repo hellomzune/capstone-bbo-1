@@ -38,5 +38,6 @@ For this experiment, [House Prices - Advanced Regression Techniques](https://www
 - This experiment aims to practise and prepare for a black-box optimisation (BBO) competition. To strengthen the skills, the notebooks are created for experimenting with the pre-defined data sets.
 - This experiment aims to understand how to work with different scales of the features using `sklearn.preprocessing`. 
 - `train_test_split`, `cross_val_scor` and `KFold` are used to understand how to select the ML model.
-- Feature engineering and Hyperparameter tuning was limited in this work.  
+- Feature engineering and Hyperparameter tuning was limited in this work.
+- The ignorance of feature importance such as neighborhood, building types, house style and house construction types contribute to the poor prediction results.
 
